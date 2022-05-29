@@ -110,10 +110,77 @@
     </section>
 
 
-
+    <!-- Blockquote -->
+    <section class="sectionBlockquote">
+        <!-- BLOCKQUOTE -->
+        <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+            <p class="mb-0 mt-2 font-italic"><strong>Astronomía</strong>
+                <strong>La astronomía (del griego άστρον [ástron] 'estrella' y νομία [nomía] 'normas', 
+                    leyes de las estrellas)1​ es la ciencia natural que estudia los cuerpos celestes del universo, 
+                    incluidos las estrellas, los planetas, sus satélites naturales, los asteroides, cometas y meteoroides,
+                     la materia interestelar, las nebulosas, la materia oscura, las galaxias y demás; 
+                     por lo que también estudia los fenómenos astronómicos ligados a ellos, como las supernovas, 
+                     los cuásares, los púlsares, la radiación cósmica de fondo, los agujeros negros, entre otros, 
+                     así como las leyes naturales que las rigen. La astronomía, asimismo, abarca el estudio del origen, 
+                     desarrollo y destino final del Universo en su conjunto mediante la cosmología, 
+                     y se relaciona con la física a través de la astrofísica, la química con la astroquímica y la biología con la astrobiología."
+            </p>
+            <p class="mb-0 mt-2 font-italic">
+                Su registro y la investigación de su origen viene a partir de la información que llega de ellos a 
+                través de la radiación electromagnética o de cualquier otro medio. La mayoría de la información 
+                usada por los astrónomos es recogida por la observación remota, aunque se ha conseguido reproducir, 
+                en algunos casos, en laboratorios, la ejecución de fenómenos celestes, como, por ejemplo, 
+                la química molecular del medio interestelar. Es una de las pocas ciencias en las que los aficionados 
+                aún pueden desempeñar un papel activo, especialmente sobre el descubrimiento y seguimiento de fenómenos 
+                como curvas de luz de estrellas variables, descubrimiento de asteroides y cometas, etc.
+            </p>
+            <footer class="blockquote-footer pt-4 mt-4 border-top">
+                Por Pablo Neruda
+                <cite title="Source Title">Astronomía</cite>
+            </footer>
+        </blockquote>
+    </section>
 
     <!-- Forms -->
-
+    <section class="contenedorForm">
+        <div class="formulario">
+            <!-- Formulario de registro -->
+            <h3 align="center"><strong>Formulario de Registro</strong></h3>
+            &nbsp
+            <p class="mb-0 mt-2 font-italic">Deseas conocer más sobre el tema y ser parte de la comunidad "Vida
+                Sana", ingresa y te ayudaremos para que tengas buenas habitos de vida.</p>
+            &nbsp
+            <form class="row g-3" id="formulario">
+                <div class="col-md-5">
+                    <label for="inputEmail4" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Ingrese nombre" aria-label="First name" />
+                </div>
+                <div class="col-md-5">
+                    <label for="inputPassword4" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Ingrese apellido" aria-label="Last name" />
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputServices" class="form-label">¿Dolencias?</label>
+                    <select id="inputServices" class="form-select">
+                        <option selected></option>
+                        <option>Dolencias óseas</option>
+                        <option>Tránsito intestinal</option>
+                        <option>Colesterol</option>
+                        <option>Diabetes</option>
+                        <option>Sobrepeso</option>
+                        <option>Demencia</option>
+                    </select>
+                </div>
+                <div align="center" class="col-12">
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
 
     <!-- Nav -->
@@ -186,7 +253,16 @@
         padding: 15px 50px;
     }
 
+    /*Blockquote*/
+    .sectionBlockquote{
+        margin: 0px 150px;
+    }
 
+    /**/
+    .contenedorForm{
+        margin: 50px 400px;
+        justify-content: center;
+    }
 
 </style>
 
