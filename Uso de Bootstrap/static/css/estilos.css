@@ -1,0 +1,77 @@
+/*Menu cabezera*/
+.cebezera {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.navbar-nav li {
+    padding: 0px 15px;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+/*Carrusel*/
+.carousel-inner {
+    width: 100%;
+    height: 500px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.container-lg {
+    padding: 0px !important;
+}
+
+.carouselcenter {
+    text-align: center;
+}
+
+/*Cartas*/
+.sectionCartas {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sectionCartas div {
+    margin: 0px 75px;
+}
+
+.card-title,
+.btn {
+    font-size: 20px;
+    padding-top: 10%;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding: 15px 50px;
+}
+
+/*Blockquote*/
+.sectionBlockquote {
+    margin: 0px 150px;
+}
+
+/*Forms*/
+.contenedorForm {
+    margin: 50px 400px;
+    justify-content: center;
+}
+
+/*nav*/
+.navbar {
+    background-color: antiquewhite !important;
+    justify-content: center;
+}
